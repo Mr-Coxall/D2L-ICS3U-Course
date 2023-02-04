@@ -1,1 +1,2 @@
-# D2L-ICS3U-Course
+# D2L - ICS3U - Course
+

@@ -6,19 +6,26 @@
     <meta name="keywords" content="ics3u" />
     <meta name="author" content="Mr. Coxall" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://raw.githubusercontent.com/Mr-Coxall/D2L-ICS3U-Course/bc597cbf433ab0962e4d9c1b75753bed05922495/css/style.cssss"
+    />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
     <link
       rel="stylesheet"
-      href="./css/material.min.css"
+      href="https://raw.githubusercontent.com/Mr-Coxall/D2L-ICS3U-Course/bc597cbf433ab0962e4d9c1b75753bed05922495/css/material.min.css"
     />
     <title>ICS3U</title>
   </head>
+
   <body>
-    <script defer src="./js/material.min.js"></script>
+    <script
+      defer
+      src="https://raw.githubusercontent.com/Mr-Coxall/D2L-ICS3U-Course/main/js/material.min.js"
+    ></script>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
@@ -27,26 +34,25 @@
       </header>
       <main class="mdl-layout__content">
         <div class="page-content" style="padding-left: 100px">
-          Enter the length of a square.
+          <ul class="roman">
+            <li>
+              Introduction
+              <ul class="square">
+                <li><a href="./Intro/Intro-01/learning_outcome.html">Intro-01</a></li>
+                <li>Intro-02</li>
+              </ul>
+            </li>
+            <li>
+              Unit #1
+              <ul class="square">
+                <li>Unit #1-01</li>
+                <li>Unit #1-02</li>
+              </ul>
+            </li>
+            <li>Unit #2</li>
+            <li>Unit #3</li>
+          </ul>
         </div>
-        <!-- Simple Textfield for integers-->
-        <form action="#">
-          <div class="mdl-textfield mdl-js-textfield">
-            <!-- input pattern attribute -->
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="[0-9]*"
-              id="demo-input"
-            />
-            <!-- mdl-textfield__label -->
-            <label class="mdl-textfield__label" for="demo-input"
-              >Length of square (mm)</label
-            >
-            <!-- class "mdl-textfield__error" -->
-            <span class="mdl-textfield__error">Input is not a number</span>
-          </div>
-        </form>
       </main>
     </div>
   </body>

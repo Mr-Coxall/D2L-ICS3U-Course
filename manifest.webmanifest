@@ -1,7 +1,7 @@
 {
-  "name": "Mr Coxall's App",
-  "short_name": "Mr Coxall's App",
-  "description": "Github Page for Mr Coxall's App",
+  "name": "ICS3U Course",
+  "short_name": "ICS3U Course",
+  "description": "Github Page for ICS3U Course",
   "scope": "/D2L-ICS3U-Course/",
   "start_url": "/D2L-ICS3U-Course/",
   "background_color": "#ffffff",

@@ -1,4 +1,4 @@
-var GHPATH = "/github-page-pwa"
+var GHPATH = "/D2L-ICS3U-Course"
 var APP_PREFIX = "gppwa_"
 var VERSION = "version_001"
 var URLS = [
